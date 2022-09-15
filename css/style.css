@@ -19,7 +19,7 @@
 }
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #100818;
 }
 .container__block-menu{
