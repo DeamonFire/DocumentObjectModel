@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color:#100818
+}
+
+
+body{
+    background-color: #100818;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #100818;
+    padding: 10px;
+    margin: 10px;
+    width: 98vw;
+    color: #cfced1;
+}
+.header__title{
+    color: #cfced1;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #100818;
+}
+.container__block-menu{
+    background-color: #403946;
+}
+.container__block-content{
+    background-color: #706b74;
+}
+.container__block-menu_item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 3px 3px 3px 3px;
+    border: solid 1px #403946;
+    width: 12vw;
+    transition: background 0.5s ease;
+    transition: color 0.5s ease;
+}
+.container__block-menu_item:hover{
+    background-color: #100818;
+    cursor: pointer;
+    color: #cfced1;
+    transition: background 0.5s ease;
+    transition: color 0.5s ease;
+}
+.content{
+    width: 82vw;
+    height: 1000px;
+    padding: 10px;
+    margin: 10px;
+}
+.container__block-menu_item-img{
+    width: 30px;
+    height: 30px;
+}
+
+.house{
+    padding: 2px 5px 20px 5px;
+    margin: 2px 5px 20px 5px;
+    border-bottom: rgb(95, 91, 102) 1px solid;
+}
+.sigil{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.words{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.titles{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.seat{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.region{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.head{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.founded{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 5px 2px 5px;
+}
+.about{
+    padding: 20px 5px 20px 5px;
+    margin: 20px 5px 20px 5px;
+    line-height: 1.5rem;
+    text-align:left;
+    border-top: rgb(95, 91, 102) 1px solid;
+}
+.history{
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+    line-height: 1.5rem;
+    text-align:left;
+    border-top: rgb(95, 91, 102) 1px solid;
+    border-bottom: rgb(95, 91, 102) 1px solid;
+}
+.content__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 300px;
+}
+.tron__img{
+    width: 82vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.tron__img:hover {
+    transform: scale(1.2);
+}
+.title__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82vw;
+}
