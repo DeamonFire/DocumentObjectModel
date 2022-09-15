@@ -83,7 +83,7 @@ const houses = [
             seat: "Фортеця: Сонячний Спис",
             region: "Регіон: Дорн",
             head: "Лорд: Доран Мартел",
-            founded: "Засновник: ",
+            founded: "Засновник: Морган Мартелл",
             about: "Опис: Мартелли — одна із занепалих шляхетних родин Вестероса. Вони правили самим південним регіоном на континенті, Дорном, з замку Сонячний Спис.",
             history: "Історія: Тисячу років тому войовнича королева ройнар Німерія перетнула Вузьке море разом зі своїми людьми, рятуючись від драконів Валірії. Після висадки на берег вона спалила всі кораблі, щоб ні один боягуз не міг повернутися назад. Нимерия потрапила до Дорн і вийшла заміж за Морсу Мартелла, в результаті чого утворився дуже могутній будинок. Разом вони змогли згуртувати цей регіон, який у той час складався з безлічі розрізнених царств. У Дорні і раніше у жінок було більше прав і свободи, ніж у всьому іншому Вестеросі. Після весілля Морсу і Нимерии, Мартеллы стали слідувати традиціям ройнар, і взяли собі титул принців. Спадкоємцем або спадкоємицею ставав старший дитина, незалежно від статі, і дорнийцы слідували за своєю принцесою точно так само, як і за принцом. За часів вторгнення Ейгона дорнийцы вирішили не вступати у відкритий бій з драконами і сховалися. Рейніс, яка вирушила на підкорення Дорна, пішла ні з чим. Через кілька років її нащадок, Дейрон I вирішив спробувати знову. Йому вдалося завоювати Дорн і правити там протягом декількох місяців. Але одного разу вночі на його стюарда Ліонеля Тірелла напали червоні скорпіони, і він загинув від отрути. Незабаром після цього Таргариены були переможені. Мартеллы продовжили правити Дорном незалежно від Таргаріенов, поки, зрештою, Дорн не став частиною Семи Королівств. Це сталося після шлюбу Дейрона II і Miria Мартелл, а сестра Дейрона II Дейнерис вийшла заміж за Марона Мартелла. Багато років потому відбувся ще один шлюб Мартеллов і Таргаріенов. Елія Мартелл вийшла заміж за Рейгара Таргариена. Незабаром вибухнула повстання Роберта, і Елія разом з дітьми була вбита." 
         },
@@ -99,8 +99,8 @@ const houses = [
             region: "Регіон: Залізні острови",
             head: "Лорд: Бейлон Грейджой",
             founded: "Засновник: Сірий Король",
-            about: "Опис: Грейджої - один з великих будинків Вестероса . Управляють Залізними островами із замку Пайк . Символ цього будинку – золотий кракен на чорному тлі, а їхній девіз – «Ми не сіємо».",
-            history: "Історія: Будинок Грейджоїв походить від Сірого Короля , легендарного Короля Залізних островів. Згідно з повір'ями, він правив тисячу років і взяв за дружину русалку. Як і більшість залізничних , вони вірять у Бога , що потонув .На момент початку Війни п'яти королів на чолі будинку був Бейлон Грейджой . За вісім років до подій Війни п'яти королів він підняв повстання проти влади Залізного трону . Повстання закінчилося для Бейлона поразкою, двоє його синів, Родрік і Марон , загинули. Третього сина, Теона , взяв у заручники Еддард Старк , його відвезли у замок Вінтерфелл , де виховувався і навчався разом із дітьми Старка. Поруч із Бейлоном залишилася лише дочка Яра ." 
+            about: "Опис: Грейджої - один з великих будинків Вестероса. Управляють Залізними островами із замку Пайк. Символ цього будинку – золотий кракен на чорному тлі, а їхній девіз – «Ми не сіємо».",
+            history: "Історія: Будинок Грейджоїв походить від Сірого Короля, легендарного Короля Залізних островів. Згідно з повір'ями, він правив тисячу років і взяв за дружину русалку. Як і більшість залізничних, вони вірять у Бога, що потонув. На момент початку Війни п'яти королів на чолі будинку був Бейлон Грейджой. За вісім років до подій Війни п'яти королів він підняв повстання проти влади Залізного трону. Повстання закінчилося для Бейлона поразкою, двоє його синів, Родрік і Марон, загинули. Третього сина, Теона, взяв у заручники Еддард Старк, його відвезли у замок Вінтерфелл, де виховувався і навчався разом із дітьми Старка. Поруч із Бейлоном залишилася лише дочка Яра." 
         },
     },
     {
@@ -113,7 +113,7 @@ const houses = [
             seat: "Фортеця: Хайгарден",
             region: "Регіон: Простір",
             head: "Лорд: Мейс Тіррел",
-            founded: "Засновник: ",
+            founded: "Засновник: Алестер Тірелл",
             about: "Опис: Вони правлять Простором — великими, родючими і густонаселеними землями на південному заході континенту. Родовий замок Тіреллів — Хайгарден.",
             history: "Історія: Будинок Тіреллов був гілкою будинку Гарднеров, давніх королів Простору. Століттями Тірелли служили як кастеляны Хайгардена. Поступово їх могутність зростав, вони ставали сильнішими і навіть скреплялили узи шлюбу з могутніми благородними будинками Простору. Під час Завойовницької війни король Мерн Гарднер був спалений живцем у битві, яка отримала назву Поле Вогню, його вбили дракони Таргаріенов. Померли також його спадкоємці. Після цього Харлен Тіреллі добровільно здав Хайгарден Эйгону Таргариену, той в нагороду зробив Тирелла лордом Хайгардена і верховним лордом Простору, хоча в Просторі були і інші благородні будинку з більш близькими родинними зв'язками з Гарднерами. Історію Тіреллов чудово характеризує їх герб — за красою троянди ховаються шипи. Тірелли здаються чесними і справедливими, на ділі вони не менш хитрі, ніж Ланністери, і їм не чужі палацові інтриги і політичні ігри. Протягом багатьох років у військових конфліктах Тірелли завжди приєднувалися до тих, хто з найбільшою ймовірністю повинен вийти з конфлікту переможцем. Це було і під час завоювання Таргаріенов, і під час повстання Роберта. Під час повстання Роберта Тірелли здобули переконливу перемогу у битві біля Эшфорда, а потім обложили Штормовий Межа. Але після смерті Божевільного короля вони відразу здалися і присягнули на вірність Роберту Баратеону." 
         },
@@ -124,155 +124,168 @@ const image = [
     {
         name: "Ланістери",
         images:{
-            icon: 'images/images/сasterly.png',
+            icon: 'Скеля Кастерлі, замок на скелі, що знаходиться біля узбережжя та дорога до нього:images/images/сasterly.png',
         }
     },
     {
         name: "Арени",
         images:{
-            src: 'images/images/The_Eyrie.png'
+            src: 'Орлине гнізно, на найвищій скелі Вестеросу та дорога між горами до нього:images/images/The_Eyrie.png'
             }
     },
     {
         name: "Баратеони",
         images:{
-            src: 'images/images/barateon.png'
+            src: 'Великий та високий замок на скелі біля узбережжя на фоні штормового моря:images/images/barateon.png'
             }
     },
     {
         name: "Старки",
         images:{
-            src: 'images/images/stark.png'
+            src: 'Великий замок посеред снігів, який освітюють сотні факелів у ночі, армія зашисників перед замком:images/images/stark.png'
             }
     },
     {
         name: "Таллі",
         images:{
-            src: 'images/images/riveran.png'
+            src: 'Замок посеред річки, та міст до нього:images/images/riveran.png'
             }
     },
     {
         name: "Мартелли",
         images:{
-            src: 'images/images/martel.png'
+            src: 'Сонячний спис, високий світлий замок посеред міста на високому пагорбі біля морі:images/images/martel.png'
             }
     },
     {
         name: "Грейджої",
         images:{
-            src: 'images/images/iron.png'
+            src: 'Замок на декількох гострих скелях біля моря, з\'єднаних між собою підвісними мостами:images/images/iron.png'
             }
     },
     {
         name: "Тірели",
         images:{
-            src: 'images/images/tirell.png'
+            src: 'Світлий замок на пагорбі, посеред міста де багато зелені:images/images/tirell.png'
             }
     },
 
 ]
 
 
+// ------------------------------------------------Menu -------------------------------
 
 const itemMenu = document.querySelector('.container__block-menu');
 
 function item(event) {
+    if(event.code === 'Enter' || event.type === 'click' || event.code === 'Space') {
+        const targetHouse = event.target.textContent;
+        let targetHouseContent = houses.find(item => item.name == targetHouse).content
+        let houseDB = Object.values(targetHouseContent)
+                            .map(text => {
+                                let classItem = text.split(":")[0];
+                                let content = text.split(":")[1];
+                                switch (classItem) {
+                                    case 'Дім':
+                                        className = 'house';
+                                        elem = 'h1';
+                                        break;
+                                    case 'Герб':
+                                        className = 'sigil';
+                                        elem = 'span';
+                                        break;
+                                    case 'Клич':
+                                        className = 'words';
+                                        elem = 'span';
+                                        break;
+                                    case 'Титул':
+                                        className = 'titles';
+                                        elem = 'span';
+                                        break;
+                                    case 'Фортеця':
+                                        className = 'seat';
+                                        elem = 'span';
+                                        break;
+                                    case 'Регіон':
+                                        className = 'region';
+                                        elem = 'span';
+                                        break;
+                                    case 'Лорд':
+                                        className = 'head';
+                                        elem = 'span';
+                                        break;
+                                    case 'Засновник':
+                                        className = 'founded';
+                                        elem = 'span';
+                                        break;
+                                    case 'Опис':
+                                        className = 'about';
+                                        elem = 'p';
+                                        break;
+                                    case 'Історія':
+                                        className = 'history';
+                                        elem = 'p';
+                                        break;
+                                }
+                                let createElemSpan = document.createElement('span');
+                                                        createElemSpan.textContent = classItem + ':';
+                                                        createElemSpan.setAttribute('class', 'title-about');
 
-// ------------------------------------------------Variant 2 ----------------------------
+                                let createElemBr = document.createElement('br');
 
-    const targetHouse = event.target.textContent;
-    let targetHouseContent = houses.find(item => item.name == targetHouse).content
-    let houseDB = Object.values(targetHouseContent)
-                        .map(text => {
-                            let classItem = text.split(":")[0];
-                            switch (classItem) {
-                                case 'Дім':
-                                    className = 'house';
-                                    elem = 'h1';
-                                    break;
-                                case 'Герб':
-                                    className = 'sigil';
-                                    elem = 'div';
-                                    break;
-                                case 'Клич':
-                                    className = 'words';
-                                    elem = 'div';
-                                    break;
-                                case 'Титул':
-                                    className = 'titles';
-                                    elem = 'div';
-                                    break;
-                                case 'Фортеця':
-                                    className = 'seat';
-                                    elem = 'div';
-                                    break;
-                                case 'Регіон':
-                                    className = 'region';
-                                    elem = 'div';
-                                    break;
-                                case 'Лорд':
-                                    className = 'head';
-                                    elem = 'div';
-                                    break;
-                                case 'Засновник':
-                                    className = 'founded';
-                                    elem = 'div';
-                                    break;
-                                case 'Опис':
-                                    className = 'about';
-                                    elem = 'p';
-                                    break;
-                                case 'Історія':
-                                    className = 'history';
-                                    elem = 'p';
-                                    break;
-                            }
-                        
-                            let createElem = document.createElement(elem);
-                                                createElem.textContent = text;
-                                                createElem.setAttribute('class', className)
-                            return createElem.outerHTML
-                        })
-                        .join("");
+                                let createElem = document.createElement(elem);
+                                                    createElem.textContent = content;
+                                                    createElem.setAttribute('class', className);
+                                return createElemSpan.outerHTML + createElem.outerHTML + createElemBr.outerHTML
+                            })
+                            .join("");
 
-let targetHouseImage = image.find(item => item.name == targetHouse).images;
-let cotentImage = Object.values(targetHouseImage)
-                        .map(img => {
-                            let createElem = document.createElement('img');
-                                                createElem.setAttribute('src', img);
-                                                createElem.setAttribute('class', 'content__img');
-                                                createElem.setAttribute('alt', 'Замок');
-                            return createElem.outerHTML
-                        })
-                        .join('')
+        let targetHouseImage = image.find(item => item.name == targetHouse).images;
+        let cotentImage = Object.values(targetHouseImage)
+                            .map(img => {
+                                let alt = img.split(":")[0];
+                                let src = img.split(":")[1];
+                                let createElem = document.createElement('img');
+                                                    createElem.setAttribute('src', src);
+                                                    createElem.setAttribute('class', 'content__img');
+                                                    createElem.setAttribute('alt', alt);
+                                return createElem.outerHTML
+                            })
+                            .join('')
 
-
-document.getElementById("content").innerHTML = houseDB + cotentImage;
+        document.getElementById("content").innerHTML = houseDB + cotentImage;
+    }
 };
 
 itemMenu.addEventListener('click', item);
+itemMenu.addEventListener( 'keyup', item);
 
 
+// ------------------------------------------------Title hiden image ------------------------------------
 
 const ironTron = document.querySelector('.header__title');
 
-function tron() {
+function tron(event) {
+    if(event.code === 'Enter' || event.type === 'click' || event.code === 'Space') {
     let createElem = document.createElement('img');
                             createElem.setAttribute('src', 'images/images/iron_tron.jpg');
                             createElem.setAttribute('class', 'tron__img');
-                            createElem.setAttribute('alt', 'Залізний Трон');
+                            createElem.setAttribute('alt', 'Залізний Трон зроблений з тисяч мечів в тронному залі замку');
     document.getElementById("content").innerHTML = createElem.outerHTML;
+    }       
 }
 
 ironTron.addEventListener('click', tron);
+ironTron.addEventListener( 'keyup', tron);
 
 
+// ------------------------------------------------Default ------------------------------------
 
 function ready() {
     let createElem = document.createElement('img');
                         createElem.setAttribute('src', 'images/images/title.jpeg');
                         createElem.setAttribute('class', 'title__img');
-                        createElem.setAttribute('alt', 'Залізний Трон');
+                        createElem.setAttribute('alt', 'Король ночі на Залізному Троні, біля трону всі головні герої які стали білими ходаками та служать йому');
     document.getElementById("content").innerHTML = createElem.outerHTML;
 }
 
