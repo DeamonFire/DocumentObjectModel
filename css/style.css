@@ -4,9 +4,8 @@
     color:#100818;
     font-family: 'Caveat', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
-
 
 
 .header__title{
@@ -19,6 +18,7 @@
     color: #cfced1;
     font-family: 'Ruslan Display', sans-serif;
     font-size: 30px;
+    letter-spacing: 5px;
 }
 .container{
     display: flex;
@@ -39,8 +39,9 @@
     margin: 3px 3px 3px 3px;
     border: solid 1px #403946;
     width: 12vw;
-    transition: background 0.5s ease;
-    transition: color 0.5s ease;
+    letter-spacing: 0.5px;
+    transition: background 0.5s ease,
+                color 0.5s ease;
     font-family: 'Ruslan Display', sans-serif;
     font-size: 15px;
 }
@@ -48,8 +49,8 @@
     background-color: #100818;
     cursor: pointer;
     color: #cfced1;
-    transition: background 0.5s ease;
-    transition: color 0.5s ease;
+    transition: background 0.5s ease,
+                color 0.5s ease;
 }
 .content{
     width: 80vw;
@@ -67,6 +68,7 @@
     margin: 2px 5px 20px 5px;
     border-bottom: rgb(95, 91, 102) 1px solid;
     font-family: 'Ruslan Display', sans-serif;
+    font-size: 30px;
 }
 .sigil{
     padding: 2px 5px 2px 5px;
@@ -167,6 +169,13 @@ span{
     font-weight: 700;
     font-family: 'Ruslan Display', sans-serif;
 }
+.home{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 5px;
+}
 
 @media screen and (max-width: 956px) {
     .container__block-menu_item{
@@ -223,6 +232,13 @@ span{
         height: 30px;
         font-weight: 100;
         font-size: 25px;
+        letter-spacing: 3px;
+    }
+    .home{
+        width: 35px;
+        height: 35px;
+        left: 10px;
+        top: 3px;
     }
 }
 
@@ -267,6 +283,13 @@ span{
         height: 20px;
         font-weight: 100;
         font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .home{
+        width: 30px;
+        height: 30px;
+        left: 5px;
+        top: 3px;
     }
 }
 
@@ -304,6 +327,10 @@ span{
     .container__block-content{
         width: 95vw;
     }
+    .header__title{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
 }
 
 @media screen and (max-width: 345px) {
@@ -339,6 +366,10 @@ span{
     }
     .container__block-content{
         width: 95vw;
+    }
+    .header__title{
+        font-size: 16px;
+        letter-spacing: 0.5px;
     }
 }
 @media screen and (max-width: 303px) {
@@ -380,6 +411,17 @@ span{
             width: 92vw;
             height: 25px;
             color: #cfced1;
-            font-size: 15px;
+            font-size: 14px;
         }
+}
+@media screen and (max-width: 270px) {
+    .header__title{
+        font-size: 12px;
+    }
+    .home{
+        width: 25px;
+        height: 25px;
+        left: 3px;
+        top: 5px;
+    }
 }

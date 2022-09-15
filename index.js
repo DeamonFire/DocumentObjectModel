@@ -249,6 +249,7 @@ function item(event) {
                                                     createElem.setAttribute('src', src);
                                                     createElem.setAttribute('class', 'content__img');
                                                     createElem.setAttribute('alt', alt);
+                                                    createElem.setAttribute('tabindex','0');
                                 return createElem.outerHTML
                             })
                             .join('')
@@ -271,6 +272,7 @@ function tron(event) {
                             createElem.setAttribute('src', 'images/images/iron_tron.jpg');
                             createElem.setAttribute('class', 'tron__img');
                             createElem.setAttribute('alt', 'Залізний Трон зроблений з тисяч мечів в тронному залі замку');
+                            createElem.setAttribute('tabindex','0');
     document.getElementById("content").innerHTML = createElem.outerHTML;
     }       
 }
@@ -286,6 +288,7 @@ function ready() {
                         createElem.setAttribute('src', 'images/images/title.jpeg');
                         createElem.setAttribute('class', 'title__img');
                         createElem.setAttribute('alt', 'Король ночі на Залізному Троні, біля трону всі головні герої які стали білими ходаками та служать йому');
+                        createElem.setAttribute('tabindex','0');
     document.getElementById("content").innerHTML = createElem.outerHTML;
 }
 
