@@ -173,7 +173,7 @@ const image = [
 ]
 
 
-// ------------------------------------------------Menu -------------------------------
+// ------------------------------------------------Content DB -------------------------------
 
 const itemMenu = document.querySelector('.container__block-menu');
 
@@ -250,7 +250,8 @@ function item(event) {
                                                     createElem.setAttribute('class', 'content__img');
                                                     createElem.setAttribute('alt', alt);
                                                     createElem.setAttribute('tabindex','0');
-                                return createElem.outerHTML
+                                                    createElem.setAttribute('title',alt);
+                                return createElem.outerHTML         
                             })
                             .join('')
 
@@ -271,8 +272,9 @@ function tron(event) {
     let createElem = document.createElement('img');
                             createElem.setAttribute('src', 'images/images/iron_tron.jpg');
                             createElem.setAttribute('class', 'tron__img');
-                            createElem.setAttribute('alt', 'Залізний Трон зроблений з тисяч мечів в тронному залі замку');
+                            createElem.setAttribute('alt', 'Король ночі на Залізному Троні, біля трону всі головні герої які стали білими ходаками та служать йому');
                             createElem.setAttribute('tabindex','0');
+                            createElem.setAttribute('title','Альтернативна історія Вестероса');
     document.getElementById("content").innerHTML = createElem.outerHTML;
     }       
 }
@@ -287,8 +289,9 @@ function ready() {
     let createElem = document.createElement('img');
                         createElem.setAttribute('src', 'images/images/title.jpeg');
                         createElem.setAttribute('class', 'title__img');
-                        createElem.setAttribute('alt', 'Король ночі на Залізному Троні, біля трону всі головні герої які стали білими ходаками та служать йому');
+                        createElem.setAttribute('alt', 'Залізний Трон зроблений з тисяч мечів в тронному залі замку');
                         createElem.setAttribute('tabindex','0');
+                        createElem.setAttribute('title','Тронний зал Червоного Замку');
     document.getElementById("content").innerHTML = createElem.outerHTML;
 }
 
