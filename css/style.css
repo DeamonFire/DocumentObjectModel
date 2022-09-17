@@ -25,6 +25,7 @@ body{
     letter-spacing: 5px;
     color: #cfced1;
     font-family: 'Ruslan Display', sans-serif;
+    cursor:cell;
 }
 .home{
     position: absolute;
@@ -32,6 +33,7 @@ body{
     height: 40px;
     left: 10px;
     top: 5px;
+    cursor: pointer;
 }
 
 /* ---------------------------------------------------Container------------------------------------ */
@@ -71,6 +73,10 @@ body{
 .container__block-menu_item-img{
     width: 30px;
     height: 30px;
+}
+.active{
+    background-color: #100818;
+    color: #cfced1;
 }
 
 /* ------------------------------------------------------Content----------------------------------------- */
